@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel="false">
+    <test name="Humana Smoke Test">
+        <classes>
+            <class name = "Automation_AI08.Humana_HelpChoosePlan" />
+            <class name ="Automation_AI08.HumanaForEmployers" />
+        </classes>
+    </test>
+</suite>
